@@ -1,0 +1,3 @@
+[submodule "CCG-Client"]
+	path = CCG-Client
+	url = ./CCG-Client/
