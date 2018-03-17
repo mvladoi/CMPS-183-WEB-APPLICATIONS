@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   Cmps183: Homework 1
+</header>
+  
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="todo.html">To Do List</a></li>
+  <li><a href="todoForm.html">To Do Form</a></li>
+</ul>    
+  
+
+
+<nav>
+  
+  <p>Notes:</p>
+  <p>I check for the dates not to be in the past.  
+  I used this 
+  site to help me:</p>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<p>Try it Yourself </p>
+
+    
+</nav>
+
+<article>
+	
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>To do Form </h1>
+  
+  <table>
+    <tr>
+      <td align="right">Task Title:</td>
+      <td align="left"><input type="text" name="task title"  size="45" /></td>
+    </tr>
+    <tr>
+      <td align="right">Notes:</td>
+      <td align="left"><input type="text" name="notes" size="45"  /></td>
+    </tr>
+    <tr>
+      <td align="right">Due Date</td>
+       <td> <input id="datepicker" onchange="checkDate()" required class="datepicker-input" type="date" size ="45" /></td>
+
+    </tr>
+  </table>
+
+    
+      <button type="button" class="cancelbtn">Submit</button>
+   
+  </div>
+</form>
+
+
+</article>
+
+<footer>
+  <a class="active" href="#">About Us</a>
+  <a href="#">Contact</a>
+  <a href="#">Privacy</a>
+  <a href="#">Credits</a>
+</footer>
+
+
+</div>
+
+</body>
+</html>

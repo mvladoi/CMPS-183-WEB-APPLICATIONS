@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   Cmps183: Homework 3
+</header>
+  
+<ul>
+  <li><a class="active" href="/index">Home</a></li>
+  <li><a href="/list" >To Do List</a></li>
+  <li><a href="/new">To Do Form</a></li>
+</ul>  
+  
+
+
+<nav>
+  
+  <p>Notes:</p>
+  <p>It took me some time how to make this work.
+  I did not know how to hide rows.  
+  I used this 
+  site to help me:</p>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<p>Try it Yourself.I tested with CHROME, I hope it works!
+ </p>
+
+    
+</nav>
+
+<div><button style = " width: 150px" onclick="my_sort(1)">Sort Due Asc </button>
+<button  style = "width: 150px" onclick="my_sort(2)">Sort Due Desc </button>
+<button style = " width: 150px" onclick="my_sort(3)">Sort Post Asc </button>
+<button  style = "width: 150px" onclick="my_sort(4)">Sort Post Desc </button>
+<button style = " width: 150px" onclick="my_sort(5)">Sort Update Asc </button>
+<button  style = "width: 150px" onclick="my_sort(6)">Sort Update Desc </button>
+</div>
+
+<div>
+  
+<button  style = "width: 150px" onclick="to_all()"> Show All </button>
+<button  style = "width: 150px" onclick="completed()">Show Complete </button>
+<button  style = "width: 150px" onclick="to_do()"> Show to do</button>
+
+</div>
+
+<article id = "myTable" >
+
+  <th></th>
+  <th> Task Title</th>
+  <th> Notes</th>
+  <td> Due Date</th>
+  <th> Posted</th> 
+  <th> Last Updated</td>
+  <th> Features</td> 
+
+  
+
+</article>    
+
+
+<footer>
+  <a class="active" href="#">About Us</a>
+  <a href="#">Contact</a>
+  <a href="#">Privacy</a>
+  <a href="#">Credits</a>
+</footer>
+
+
+</div>
+
+</body>
+</html>
